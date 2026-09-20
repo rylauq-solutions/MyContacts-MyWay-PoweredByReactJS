@@ -1,0 +1,36 @@
+{
+  "contacts": [
+    {
+      "id": "b0f5",
+      "name": "Aarav Sharma",
+      "contactNumber": "1919191919",
+      "email": "aarav.sharma@example.com",
+      "relation": "Friend",
+      "company": "Tata Consultancy Services"
+    },
+    {
+      "id": "aa96",
+      "name": "Priya Verma",
+      "contactNumber": "1212121212",
+      "email": "priya.verma@example.com",
+      "relation": "Family",
+      "company": "Infosys"
+    },
+    {
+      "id": "b271",
+      "name": "Ravi Patel",
+      "contactNumber": "2323232323",
+      "email": "ravi.patel@example.com",
+      "relation": "Colleague",
+      "company": "Wipro"
+    },
+    {
+      "id": "4b22",
+      "name": "Kishore Das",
+      "contactNumber": "2211998877",
+      "email": "kishore.das@outlook.com",
+      "relation": "Neighbour",
+      "company": "Accenture"
+    }
+  ]
+}

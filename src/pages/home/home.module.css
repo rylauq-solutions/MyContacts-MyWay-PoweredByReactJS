@@ -1,0 +1,155 @@
+.homeHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.homeHeader>h1 {
+    height: 100%;
+    font-size: 2rem;
+    padding: 10px 15px;
+    border-radius: 6px;
+    text-align: center;
+    margin: 0;
+}
+
+.sortButton {
+    position: absolute;
+    right: 20px;
+    background-color: #5c2a7a;
+    color: #f9d6bd;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.sortButton:hover {
+    background-color: #4a2161;
+    color: #ffe6e6;
+    transform: scale(1.05);
+}
+
+.sortButton:active {
+    transform: scale(0.95);
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+        position: relative;
+        height: auto;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        padding: 8px;
+    }
+
+    .sortButton {
+        position: static;
+        margin-top: 10px;
+        width: 80%;
+        text-align: center;
+    }
+}
+
+/* Table Styling */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+th {
+    background-color: #f1d8b5;
+    color: #000;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+td {
+    background-color: #fff;
+    color: #5c2a7a;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Edit and Delete Button Styling */
+.editButton {
+    padding: 5px 8px;
+    background-color: #f6cfcf20;
+    color: #e74c3c;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.editButton:hover {
+    background-color: #e68a00;
+    color: white;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.editButton:active {
+    background-color: #d47f00;
+}
+
+/* Empty Contact Message */
+p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #999;
+    font-style: italic;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    table {
+        font-size: 0.9rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    th,
+    td {
+        padding: 8px;
+    }
+
+    .editButton {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sortButton {
+        margin-top: 10px;
+        width: 80%;
+    }
+}
